@@ -1,0 +1,19 @@
+Comandos do Git em sequência para memorizar e praticar:
+
+Para importar um repositório e atualizar o seu
+	git clone "link"
+	Quando surgirem novas alteracoes no repositorio local
+	git commit -m "comentario"
+	git status
+	git push origin main
+
+Criando uma nova pasta Git
+	git init "nome"
+
+Configuração de usuário
+	git config --global user.email "email"
+	git config --global user.name NOME
+
+	Caso queira deletar
+	git config --global --unset user.email
+	git config --global --unset user.name
